@@ -1,3 +1,10 @@
+body{
+    background-image:url(imágenes/background.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .box{
     display: flex;
     width: 75%;
@@ -5,16 +12,19 @@
     float: left;
     min-width: 25%;
 }
+.texto{
+    color: white;
+    text-shadow:  0 0 0.2em rgb(51, 151, 158), 0 0 0.2em rgb(48, 121, 143), 0 0 0.2em rgb(3, 3, 0);
+}
 .cards{
-    text-shadow:  0 0 0.2em rgb(247, 159, 159), 0 0 0.2em rgb(46, 6, 6), 0 0 0.2em rgb(26, 6, 6);
     display: flex;
     width: 15%;
-    min-height: 10%; min-width: 15%; max-height: 70%;
+    min-height: 10%; min-width: 15%;
     float: right;
     padding: 3% 3%;
 }
 section{
-    border: 1px solid #ff0000; 
+    border: 2px solid #52ecec; 
     padding: 2px;
 }
 .cardTwo{
