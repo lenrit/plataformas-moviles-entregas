@@ -1,6 +1,8 @@
+/*fondo del documento*/
 body{
     background-color: #222;
 }
+/*alternancia de colores*/
 li:nth-child(even){
     width: fit-content;
     background-color: #111;
@@ -9,43 +11,54 @@ li:nth-child(odd){
     width: fit-content;
     background-color: #333;
 }
+/*padding al segundo listado de peliculas*/
 ul:nth-of-type(2){
     padding-left: 15px;
 }
+/*centrado del primer titulo y cambio de color cuando se pasa el cursor por encima*/
 h1, h1:hover{
     text-align: center;
     color:rgb(132, 0, 255);
 }
+/*Cambio de color de los enlaces visitados*/
 a:visited{
-    color: rgba(0, 255, 200, 0.966);
+    color: rgba(58, 58, 58, 0.966);
 }
+/*Cambio de color a la primer linea del primer párrafo*/
 p:nth-of-type(1)::first-line{
     color: #efe;
 }
+/*Fuente y color de todos los párrafos*/
 p{
     font-family: sans-serif;
     color: #ee6;
 }
+/*Cambio de color y mayúscula a todos los títulos*/
 h1, h2,h3{
     color: #ee6;
     text-transform: uppercase;
 }
+/*Borde inferior a los elementos dentro de la etiqueta strong*/
 strong{
     border-bottom: 1px solid #fff;
 }
+/*Color de fondo y negrita a los textos con la clase "the-force"*/
 .the-force{
     background-color: #444;
     font-weight: bold;
 }
+/*Color a los textos con clase "light-side" y "dark-side"*/
 .light-side{
     color:#66f;
 }
 .dark-side{
     color:#f33;
 }
+/*Apariencia del listado en la lista con id "og-trilogy"*/
 #og-trilogy{
     list-style-type: circle;
 }
+/*Margen superior a la última item de la última lista*/
 ul:nth-of-type(3) li:last-child{
     margin-top: 15px;
 }
