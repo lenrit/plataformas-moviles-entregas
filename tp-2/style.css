@@ -16,7 +16,9 @@ ul:nth-of-type(2){padding-left: 15px;}
 
 /*centrado del primer titulo y cambio de color cuando se pasa el cursor por encima*/
 h1, h1:hover{
-    text-align:center;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
     color:rgb(132, 0, 255);
 }
 
