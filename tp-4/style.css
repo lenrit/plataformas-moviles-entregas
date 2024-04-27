@@ -30,7 +30,7 @@
     }
 }
 @media screen and (not (hover)){
-    html a{
+    html body   a{
         background-color: #212;
         padding: 2px 5px;
     }
