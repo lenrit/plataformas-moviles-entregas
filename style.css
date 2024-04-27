@@ -1,0 +1,45 @@
+@font-face {
+    font-family:'Blogger_Sans-Medium';
+    src: url(fonts/blogger/Blogger_Sans-Medium.otf);
+}
+@font-face {
+    font-family:'Blogger_Sans-Medium_Italic';
+    src: url(fonts/blogger/Blogger_Sans-Medium_Italic.otf);
+}
+a{
+    text-decoration: none;
+}
+footer{
+    color: rgb(77, 64, 194);
+    font-size: larger;
+    text-align: center;
+    position: absolute; 
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+    text-shadow:  0 0 0.5em palegreen, 0 0 1em palegreen, 0 0 0.5em rgb(124, 199, 121);
+    font-family: 'Blogger_Sans-Medium_Italic';
+}
+body{
+    margin:0px 10px ; 
+    padding:0; 
+    height:100%; 
+    background-color: #ffe;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    min-width: 25px;
+    font-family:'Blogger_Sans-Medium';
+    color: cadetblue;
+}
+ul>li{
+    font-family:'Blogger_Sans-Medium';
+    color:burlywood;
+}
+ul>a{
+    color:lightseagreen;
+}
+ul>a:visited{
+    color:darkorchid;
+}
